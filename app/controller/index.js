@@ -1,6 +1,8 @@
 const fs = require('fs');
 const router = require('koa-router')();
 
+
+
 function addMapping(router, mapping) {
     for (var url in mapping) {
         if (url.startsWith('GET ')) {
